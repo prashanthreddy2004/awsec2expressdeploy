@@ -8,7 +8,7 @@ app.set('views',path.join(__dirname,"views"));
 app.set("view engine ","pug");
 
 app.get('/home',(req,res)=>{
-    const subjects =["Devops","cc","Cd"];
+    const subjects =["Devops","cc","Cd","AI","MPMC","python","Java"];
     res.render('sample.pug',{'sub': subjects});
 
 });
